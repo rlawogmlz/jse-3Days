@@ -30,7 +30,7 @@
 		 */
 		 
 		 /* 
-		 Dwon-Casting
+		 Down-Casting
 		  *  캐스팅 ( Casting )
 		  *  강제형변환
 		  *  프로그램에서 명시적( explict )으로 지정하는타입 변환
