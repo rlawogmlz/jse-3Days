@@ -11,7 +11,7 @@ public class No03_2HangDemo
 		
 		result = boo ? left : right;
 		
-		System.out.println("참이나 거짓이냐 1이면 참, 0이면 거직 : "+ result);
+		System.out.println("참이나 거짓이냐 1이면 참, 0이면 거짓 : "+ result);
 		
 	}
 }
