@@ -10,7 +10,7 @@ public class No05_ForLoopDemo
 			a++;
 			//System.out.println("회전수는"+ a+" "+i+"회 입니다");
 			System.out.println("a의 값"+a+" ");
-			System.out.println("i의 값"+i+" ");
+			System.out.println("i의 값"+i+"입니다");
 		}
 	}
 }
