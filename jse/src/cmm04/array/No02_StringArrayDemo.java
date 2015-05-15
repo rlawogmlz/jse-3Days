@@ -11,7 +11,7 @@ public class No02_StringArrayDemo {
 		juso[1] = "종로";
 		juso[2] = "광화문";
 		*/
-		for(int i = 0; i < juso.length; i++) //i < index말고 juso.length로 하면 배열에 수를 알아서 갯수를 새어준다
+		for(int i = 0; i < juso.length; i++) 	//i < index말고 juso.length로 하면 배열에 수를 알아서 갯수를 세어준다
 		{
 			System.out.print(juso[i]+" ");
 	
