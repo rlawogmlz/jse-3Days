@@ -10,7 +10,7 @@ public class PayD {
 		String thor = "토르";
 		int thorSalary = 500;
 
-		PayA hulkPay =  new PayA();
+		PayC hulkPay =  new PayC();
 		hulkPay.setTaxVal(hulkSalary);
 		hulkPay.setIncome(hulkSalary);
 
@@ -20,7 +20,7 @@ public class PayD {
 		System.out.println("실수령액 : "+hulkPay.getIncome());
 		System.out.println();
 		
-		PayA ironPay =  new PayA();
+		PayC ironPay =  new PayC();
 		ironPay.setTaxVal(ironSalary);
 		ironPay.setIncome(ironSalary);
 		
@@ -30,7 +30,7 @@ public class PayD {
 		System.out.println("실수령액 : "+ironPay.getIncome());
 		System.out.println();
 		
-		PayA thorPay =  new PayA();
+		PayC thorPay =  new PayC();
 		thorPay.setTaxVal(thorSalary);
 		thorPay.setIncome(thorSalary);
 		

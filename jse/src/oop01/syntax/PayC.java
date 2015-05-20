@@ -16,7 +16,7 @@ public class PayC {
 		return salary;
 	}
 	public void setSalary(int salary) {
-		this.salary = salary;
+		this.salary = salary*(int) tax;
 	}
 	public int getTaxVal() {
 		return taxVal;
