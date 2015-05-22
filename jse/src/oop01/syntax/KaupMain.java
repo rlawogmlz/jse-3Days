@@ -18,6 +18,8 @@ public class KaupMain {
 		System.out.println("몸무개를 입력하세요 :");
 		weight = scanner.nextDouble();
 		vo.setWeight(weight);
+		vo.setIdx(height, weight);
+		
 		
 		/*
 		int idx=0;
@@ -26,7 +28,5 @@ public class KaupMain {
 		*/
 		
 		System.out.println(vo.toString());
-		System.out.println("완료");
-		
 	}
 }

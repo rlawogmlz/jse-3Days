@@ -30,7 +30,7 @@ public class kaupVO {
 		return idx;
 	}
 
-	public void setIdx(int idx) {
+	public void setIdx(double height, double weight) {
 		this.idx = (int) ( (weight/(height*height))*10000 );
 	}
 
@@ -67,7 +67,7 @@ public class kaupVO {
 	@Override
 	public String toString() {
 		return "카루프지수 [height=" + height + ", weight=" + weight + ", idx="
-				+ idx + ", msg=" + msg + "]";
+				+ idx + ", msg=" + this.getMsg() + "]";
 	}
 	
 }
